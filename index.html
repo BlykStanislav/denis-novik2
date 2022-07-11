@@ -4,44 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Denis Novik</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="container">
+        <nav >
             <ul class="header-menu">
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>About me</li>
-                <li><a href="#"></a>Skills</li>
-                <li><a href="#"></a>Portfolio</li>
-                <li><a href="#"></a>Contacts</li>
+                <li class="li__header"><a href="#first-screen">Home</a></li>
+                <li class="li__header"><a href="#about-me">About me</a></li>
+                <li class="li__header"><a href="#skills">Skills</a></li>
+                <li class="li__header"><a href="#portfolio">Portfolio</a></li>
+                <li class="li__header"><a href="#contacts">Contacts</a></li>
             </ul>
             <hr class="line-1">
         </nav>
     </header>
+
     <main>
-        <section class="first-screen">
+        <section class="first-screen container" id="first-screen">
             <h1>Denis Novik</h1>
-            <img src="img/Denis.jpg" alt="photo-denis-novik">
+            <img class="denis-photo" src="img/Denis.jpg" alt="photo-denis-novik">
         </section>
 
-        <section class="about-me">
-            <h2>About me</h2>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.</p>
-            <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
-            <p>Ready to implement excellent projects with wonderful people.</p>
+        <section class="about-me " id="about-me">
+            <div class="container about_me">            
+                <h2 class="about">About me</h2>
+                <div class="about_me_paragraph">
+                    <p class="paragraph__aboutme">Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
+                    <p class="paragraph__aboutme">I'm studying at courses "Web and mobile design  interfaces" in IT-Academy.</p>
+                    <p class="paragraph__aboutme">Ready to implement excellent projects <br> with wonderful people.</p>
+                </div>
+
+            </div>
+
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="heading">
                 <h2>Skills</h2>
                 <p>I work in such programs as</p>
             </div>
             <div class="product-list">
-                <span>
-                    <img src="img/Ps.png" alt="photoshop">
-                    <p>Adobe Photoshop</p>
-                    <ul>
+                <span class="skills__program">
+                    <img class="program" src="img/Ps.png" alt="photoshop">
+                    <p class="paragraph__items">Adobe <br> Photoshop</p>
+                    <ul class="display__skills">
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon2.png" alt="star-icon"></li>
@@ -49,10 +61,10 @@
                         <li><img src="img/star-icon2.png" alt="star-icon"></li>
                     </ul>
                 </span>
-                <span>
-                    <img src="img/Ai.png" alt="AdobeIllustrator">
-                    <p>Adobe Illustrator</p>
-                    <ul>
+                <span class="skills__program">
+                    <img class="program" src="img/Ai.png" alt="AdobeIllustrator">
+                    <p class="paragraph__items">Adobe <br> Illustrator</p>
+                    <ul class="display__skills">
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
@@ -60,10 +72,10 @@
                         <li><img src="img/star-icon2.png" alt="star-icon"></li>
                     </ul>
                 </span>
-                <span>
-                    <img src="img/Ae.png" alt="adobe after effects">
-                    <p>Adobe After Effects</p>
-                    <ul>
+                <span class="skills__program">
+                    <img class="program" src="img/Ae.png" alt="adobe after effects">
+                    <p class="paragraph__items">Adobe <br> After Effects</p>
+                    <ul class="display__skills">
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
@@ -71,10 +83,10 @@
                         <li><img src="img/star-icon2.png" alt="star-icon"></li>
                     </ul>
                 </span>
-                <span>
-                    <img src="img/Figma.png" alt="figma">
-                    <p>Figma</p>
-                    <ul>
+                <span class="skills__program">
+                    <img class="program" src="img/Figma.png" alt="figma">
+                    <p class="paragraph__figma paragraph__items">Figma</p>
+                    <ul class="display__skills">
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
                         <li><img src="img/star-icon.png" alt="star-icon"></li>
@@ -85,30 +97,33 @@
             </div>
         </section>
 
-        <section class="portfolio">
-            <h2>Portfolio</h2>
-            <div class="fasion-store">
-                <img src="img/Fashion-Store.jpg" alt="photo fasion-store">
-                <p><u>Online fashion store - Homepage</u></p>
-            </div>
-            <div class="reebok-store">
-                <img src="img/reebok_web.png" alt="photo reebok-store">
-                <p><u>Reebok Store - Concept</u></p>
-            </div>
-            <div class="braun-lending-pages">
-                <img src="img/braun-landing.png" alt="photo braun-landing-page">
-                <p><u>Braun Landing Page - Concept</u></p>
-            </div>
-        </section>
+        <div class="portfolio__background">
+            <section class="portfolio container" id="portfolio">
+                <h2 class="h2__portfolio">Portfolio</h2>
+                <div class="fasion-store">
+                    <img src="img/Fashion-Store.jpg" alt="photo fasion-store">
+                    <p class="paragraph__portfolio">Online fashion store - <br> Homepage</p>
+                </div>
+                <div class="reebok-store">
+                    <img src="img/reebok_web.png" alt="photo reebok-store">
+                    <p class="paragraph__portfolio">Reebok Store - Concept</p>
+                </div>
+                <div class="braun-lending-pages">
+                    <img src="img/braun-landing.png" alt="photo braun-landing-page">
+                    <p class="paragraph__portfolio">Braun Landing Page - Concept</p>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer class="contacts">
-        <div class="heading">
+
+    <footer class="contacts" id="contacts">
+        <div class="heading_contact">
             <h2>Contacts</h2>
-            <p>Want to know more or just chat? 
+            <p class="paragraph__contact">Want to know more or just chat? <br>
                 You are welcome!</p>
         </div>
         <div class="links">
-            <button>Send message</button>
+            <button class="button__links">Send message</button>
             <ul class="social-group">
                 <li><img src="img/linkedin.png" alt="photo linkedin"></li>
                 <li><img src="img/instagram.png" alt="photo instagram"></li>
@@ -116,7 +131,8 @@
                 <li><img src="img/dribbble.png" alt="photo dribbble"></li>
             </ul>
         </div>
-        <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+       
+        <p class="paragraph__contact_two">Like me on <br> LinkedIn, Instagram, Behance,<br> Dribble</p>
     </footer>
     
 </body>

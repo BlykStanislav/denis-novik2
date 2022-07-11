@@ -1,0 +1,218 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.container {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.li__header {
+    margin: 28px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+a:hover {
+    color:#070707 ;
+}
+
+.line-1 {
+    filter: drop-shadow(0px 2px 2px rgb(56, 48, 48));
+}
+
+h1 {
+    margin: 12px 0 50px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+
+}
+.denis-photo {
+    width: 100%;
+}
+
+p {
+    font-weight: 400;
+}
+
+
+/* about-me */
+
+.about-me {
+    background-color: #F6F6F6;
+    display: flex;
+
+}
+
+.about_me {
+    height: 500px;
+    }
+
+.about {
+    margin-top: 100px;
+}
+
+.about_me_paragraph {
+    width: 480px;
+    height: 210px;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.paragraph__aboutme {
+    margin-top: 30px;
+}
+
+
+/* Skills */
+
+.heading {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 97px;
+
+}
+
+.skills__program {
+    align-items: center;
+}
+
+.display__skills {
+    display: flex;
+    margin: 50px 0 100px;
+}
+
+.program {
+    margin-left: 30px;
+}
+
+
+
+.paragraph__items {
+    color: #828282;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* Portfolio */
+
+.portfolio__background {
+    background-color: #F6F6F6;
+}
+
+.h2__portfolio {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.paragraph__portfolio {
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 40px;
+    padding-bottom: 70px;
+    color: #070707;
+}
+
+
+/* Contacts */
+
+.paragraph__contact{
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.links {
+        margin: 0 auto;
+
+        width: 310px;
+        height: 115px;
+}
+
+.social-group {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.button__links {
+    position: relative;
+    left: 20%;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+
+    height: 45px;
+    width: 180px;
+    background-color: #070707;
+    color: #F6F6F6;
+
+    border-radius: 22px;
+}
+
+.button__links:hover {
+    background-color: #F6F6F6;
+    color: #070707;
+}
+
+.heading_contact {
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+.paragraph__contact_two {
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 70px auto;
+
+
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #828282;
+}
+
+
+
+
